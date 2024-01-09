@@ -1,0 +1,24 @@
+{
+    "version": "0.28.15",
+    "description": "",
+    "homepage": "https://www.klayout.de/",
+    "license": "GNU GPL v3",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.klayout.org/downloads/Windows/klayout-0.28.15-win64.zip",
+            "hash": "3a7634084ea975a491b3a952fa10eefe142cfeafbb631d17dcf843c1667e06b0"
+        }
+    },
+    "bin": "klayout_app.exe",
+    "checkver": {
+        "github": "https://github.com/KLayout/klayout"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip"
+            }
+        }
+    }
+}
