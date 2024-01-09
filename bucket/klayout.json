@@ -1,6 +1,6 @@
 {
     "version": "0.28.15",
-    "description": "",
+    "description": "Your Mask Layout Friend",
     "homepage": "https://www.klayout.de/",
     "license": "GNU GPL v3",
     "notes": "",
@@ -11,13 +11,20 @@
         }
     },
     "bin": "klayout_app.exe",
+    "shortcuts": [
+        [
+            "klayout_app.exe",
+            "KLayout"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/KLayout/klayout"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip"
+                "url": "https://www.klayout.org/downloads/Windows/klayout-$version-win64.zip",
+                "extract_dir": "klayout-$version-win64"
             }
         }
     }
