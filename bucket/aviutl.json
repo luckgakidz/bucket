@@ -8,10 +8,6 @@
             "hash": "5eaff06191b1cc90d9477d432698a56c02c59de9ba161e8718f79a384d212db9"
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
     "post_install": [
         "",
         ""
@@ -28,7 +24,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl$cleanVersion.zip"
+                "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl$cleanVersion.zip",
+                "extract_dir": "$version"
             }
         }
     }
