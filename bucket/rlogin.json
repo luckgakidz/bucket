@@ -1,13 +1,13 @@
 {
-    "version": "15055693",
+    "version": "15370901",
     "description": "",
     "homepage": "https://github.com/kmiya-culti/RLogin",
     "license": "",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/files/15055693/rlogin_x64.zip",
-            "hash": "ca2d1ef182418e3d3c6b8880a77b6a8791fcd62fd3acb35ba3c298f291860622"
+            "url": "https://github.com/kmiya-culti/RLogin/files/15370901/rlogin_x64.zip",
+            "hash": "4643593badd14c6850f3dc832056f3e1e704f9a818e35d5c476482149001371b"
         }
     },
     "bin": "RLogin.exe",
