@@ -1,14 +1,14 @@
 {
-    "version": "0.29.3",
+    "version": "0.29.4",
     "description": "Your Mask Layout Friend",
     "homepage": "https://www.klayout.de/",
     "license": "GNU GPL v3",
     "notes": "",
     "architecture": {
         "64bit": {
-            "url": "https://www.klayout.org/downloads/Windows/klayout-0.29.3-win64.zip",
-            "hash": "0107fd1f4b1914ab515d12f1aa15e1cfc9afd37757c9673c0e05366835cb4368",
-            "extract_dir": "klayout-0.29.3-win64"
+            "url": "https://www.klayout.org/downloads/Windows/klayout-0.29.4-win64.zip",
+            "hash": "84b5afda236647869e496d2d9a7af05cb6c41723dcb59fc221ad0a052d8faf2e",
+            "extract_dir": "klayout-0.29.4-win64"
         }
     },
     "bin": "klayout_app.exe",
